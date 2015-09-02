@@ -1,4 +1,4 @@
-# Starter website
+# Website starter
 
 ## About
 
@@ -17,7 +17,7 @@
 
 ## Local server
 
-1. `npm run server`
+1. `npm run start`
 
 Compiles to the .gitignored `/dist` directory
 
