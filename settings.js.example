@@ -1,0 +1,3 @@
+module.exports = {
+  bucketName: 'name-of-aws-bucket'
+};

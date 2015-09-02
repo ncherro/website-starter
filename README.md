@@ -26,3 +26,13 @@ Compiles to the .gitignored `/dist` directory
 1. `npm run build`
 
 Compiles to the .gitignored `/dist` directory (coming soon)
+
+## Deploy
+
+We're using [gulp-s3-upload](https://www.npmjs.com/package/gulp-s3-upload) to
+push files to a website-enabled
+[S3 bucket](http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html)
+
+1. set your `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` ENV vars
+1. `cp settings.js.example settings.js` and set the bucket name
+1. run `npm run deploy`
