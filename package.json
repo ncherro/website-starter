@@ -1,0 +1,30 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "Website starter, using Webpack, Gulp, Sass, and Skeleton CSS",
+  "main": "src/entry.js",
+  "author": "Nick Herro",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.16.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-hash": "^2.2.1",
+    "gulp-util": "^3.0.6",
+    "gulp-webpack": "^1.5.0",
+    "html-webpack-plugin": "^1.6.1",
+    "node-sass": "^3.3.2",
+    "sass-loader": "^2.0.1",
+    "skeleton-css": "^2.0.4",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.0",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp server"
+  }
+}
