@@ -1,3 +1,4 @@
 module.exports = {
-  bucketName: 'name-of-aws-bucket'
+  bucketName: 'name-of-aws-bucket',
+  region: 'us-east-1'
 };

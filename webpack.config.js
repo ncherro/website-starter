@@ -34,7 +34,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      hash: true,
+      hash: false,
       template: 'src/index.html',
       inject: 'body',
       favicon: 'src/images/favicon.png',
