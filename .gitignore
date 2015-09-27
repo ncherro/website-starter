@@ -2,3 +2,4 @@
 /dist
 /settings.js
 npm-debug.log
+.awspublish*
